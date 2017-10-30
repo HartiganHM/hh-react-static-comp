@@ -29,3 +29,27 @@
   line-height: 150%;
   margin: 0;
 }
+
+@media screen and (max-width: 990px) {
+  .Story {
+    flex-direction: column;
+  }
+
+  .Story img {
+    width: 100%;
+  }
+
+  .storyImage {
+    object-fit: cover;
+    height: 125px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Story {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+}

@@ -25,6 +25,8 @@
 
 .banner-right {
   background-image: url(http://68.media.tumblr.com/bd9c40368eed9d1d994bfc716aafec48/tumblr_inline_ocdletfMwY1sse7kl_500.png);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
 }
@@ -33,3 +35,30 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 767px) {
+  .Banner {
+    width: 100%;
+  }
+
+  .Banner h2 {
+    font-size: 28px;
+    letter-spacing: 0;
+    margin: 10px auto;
+  }
+
+  .Banner p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .banner-left {
+    width: 100%;
+  }
+
+  .banner-right {
+    display: none;
+  }
+
+}
+

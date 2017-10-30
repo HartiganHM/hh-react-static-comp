@@ -24,3 +24,10 @@ h1 {
   font-weight: bolder;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .writeStory {
+    display: none;
+  }
+
+}

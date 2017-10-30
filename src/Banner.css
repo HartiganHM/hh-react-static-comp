@@ -38,6 +38,7 @@
 
 @media screen and (max-width: 1100px) {
   .Banner {
+    margin: 0 auto 20px auto;
     width: 85%;
   }
 }

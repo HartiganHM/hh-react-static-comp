@@ -32,8 +32,8 @@ const stories = [
   },
   {
     img: './public/story4.jpg',
-    title: 'How to Improve Learning and Classroom Engagement with Humor',
-    desc: 'Okay, so first of all, everybody knows fart jokes are hilarious ...',
+    title: 'How to Improve Classroom Engagement with Humor',
+    desc: 'Everybody knows fart jokes are hilarious ...',
     authImg: './public/pamela.png',
     authName: 'Pamela',
     estTime: '11 min'

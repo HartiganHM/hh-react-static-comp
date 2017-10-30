@@ -6,8 +6,8 @@ const Banner = () => {
   return (
     <div className='Banner'>
       <div className='banner-left'>
-        <h2>Interesting ideas that set your mind in motion</h2>
-        <p>Hear directly from the people who know it best. From tech to politics to creativity and more — whatever your interest, we’ve got you covered.</p>
+        <h2>Expand your mind and escape to an <span>alternate</span> reality</h2>
+        <p>Keep track of all the books you've read and, most importantly, keep yourself honest for everything that you want to read.</p>
         <div className='button-holder'>
           <Button buttonType='dark'
                   buttonText='Get started' />
